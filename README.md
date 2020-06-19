@@ -8,7 +8,7 @@ TODO:
   - [ ] Input Methods
     - [ ] OCR
     - [ ] Type
-    - [ ] Component Progression
+    - [ ] Progressive Categorization
 - [ ] OCR
   - [ ] Build
     - [ ] Detection
