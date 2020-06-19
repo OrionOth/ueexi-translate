@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>UEEXI: Alien Language Translator</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>UEEXI: Alien Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu-sidebar">
+        <div class="sidebar-item sidebar-title" data-ref="main">UEEXI</div>
+        <div class="sidebar-items">
+            <ul class="sidebar-item" data-ref="banu">Banu</ul>
+            <ul class="sidebar-item" data-ref="xian">Xi'an</ul>
+            <!-- <ul class="sidebar-item">Xi'an</ul> -->
+            <!-- <ul class="sidebar-item">Vanduul</ul> -->
+        </div>
+    </div>
+    <div id="body-container">
+        <div id="main" class="page">
+            <h1>UEEXI: Alien Language Translator</h1>
+            <p>can translate the alien languages of the 'verse! <br>
+                start by selecting a race from the sidebar, then fill out the fields to complete your translation
+            </p>
+        </div>
+        <div id="banu" style="display:none;" class="page">
+            <h1>Banu</h1>
+            <p>The Banu are like a can of soda, the longer you leave it open, the faster it goes.</p>
+            <span>In the Banu text, "Banu" is: </span><span class="banu-text">uBanu;</span>
+        </div>
+        <div id="xian" style="display:none;" class="page">
+            <h1>Xi'an</h1>
+            <p>The Xi'an are like a shitty bread, the more they break the flakier they get.</p>
+            <span>In the Xi'an text, "Xi'an" is: </span><span class="xian-text">Xy’an</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
