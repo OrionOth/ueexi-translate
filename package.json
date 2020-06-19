@@ -1,0 +1,28 @@
+{
+  "name": "ueexi-translate",
+  "version": "0.0.1",
+  "description": "uee common/alient language translator",
+  "main": "backend/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrionOth/ueexi-translate.git"
+  },
+  "keywords": [
+    "uee",
+    "banu",
+    "xian"
+  ],
+  "author": "OrionOth, kia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrionOth/ueexi-translate/issues"
+  },
+  "homepage": "https://github.com/OrionOth/ueexi-translate#readme",
+  "dependencies": {
+    "electron": "^9.0.4"
+  }
+}

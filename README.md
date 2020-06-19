@@ -26,3 +26,6 @@ TODO:
     - [ ] Vanduul
   - [ ] Contextual Use
   - [ ] Grammar
+
+
+#### for those who are testing, node_modules goes in project root
