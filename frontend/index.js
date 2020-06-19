@@ -1,4 +1,4 @@
-const { ipcRenderer } = require("electron");
+// const { ipcRenderer } = require("electron");
 function id(e) { return document.getElementById(e) }
 
 Array.from(document.querySelectorAll('.sidebar-item')).forEach(e => {

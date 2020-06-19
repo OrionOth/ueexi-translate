@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Mukta");
 @font-face {
     font-family: "banu";
     src: url("assets/Banu-Regular.otf") format("opentype");
@@ -7,6 +7,14 @@
     font-family:"xian";
     src: url("assets/xiinthlea-Regular.otf") format("opentype");
 }
+:root {
+    --primary-text:#505050;
+    --primary:#80D5C7;
+    --primary-accent:#D97397;
+    --primary-border:#707070;
+    --secondary:#9373F0;
+    --secondary-accent:#6ECEE6;
+}
 
 html {
     height: 100%;
@@ -14,7 +22,7 @@ html {
 }
 
 body {
-    font-family: "Roboto";
+    font-family: "Mukta";
     height: 100%;
     padding: 0;
     margin: 0;
@@ -62,4 +70,34 @@ body {
     top: 1em;
     left: 0.5em;
     font-size: 1.8em;
+}
+
+.button {
+    font-size:1.2em;
+    padding:0.5em 0.8em 0.5em 0.8em;
+    border:1px solid black;
+    border-radius:4px;
+    cursor:pointer;
+    box-shadow:-5px 5px 4px grey;
+    outline:none;
+    top:0;
+    transition:box-shadow 0.05s ease, margin-top 0.04s ease, margin-bottom 0.1s ease;
+    color:var(--primary-text);
+    font-family: "Mukta";
+    margin-top:0.5em;
+    margin-bottom:2em;
+    user-select: none;
+}
+.button:hover {
+    box-shadow:-6px 8px 6px grey;
+    margin-top: calc(0.5em - 4px);
+}
+.button:active {
+    box-shadow:-2px 3px 2px grey;
+    margin-top: calc(0.5em + 1px);
+}
+
+.button.primary {
+    background:var(--primary);
+    border-color:var(--primary-border);
 }
