@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/OrionOth/ueexi-translate#readme",
   "dependencies": {
-    "electron": "^9.0.4"
+    "electron": "^9.4.0"
   }
 }
